@@ -16,8 +16,6 @@
 	<meta property="og:image" content="<% with $Image.SetSize(500,500) %>$AbsoluteURL.ATT<% end_with %>" />
 	<% end_if %>
 	<link rel="icon" type="image/png" href="$ThemeDir/favicon.ico" />
-	<%--See [Requirements](http://doc.silverstripe.org/framework/en/reference/requirements) for loading from controller--%>
-	<link rel="stylesheet" href="$ThemeDir/css/app.css" />
 	<script src="$ThemeDir/bower_components/modernizr/modernizr.js"></script>
 </head>
 <body class="$ClassName.ATT">
@@ -56,10 +54,5 @@
 		$LoginForm
 		<a class="close-reveal-modal">&#215;</a>
 	</div>
-
-	<%--See [Requirements](http://doc.silverstripe.org/framework/en/reference/requirements) for loading from controller--%>
-	<script src="$ThemeDir/bower_components/jquery/dist/jquery.min.js"></script>
-	<script src="$ThemeDir/bower_components/foundation/js/foundation.min.js"></script>
-	<script src="$ThemeDir/javascript/app.js"></script>
 </body>
 </html>
